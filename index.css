@@ -1,0 +1,60 @@
+html, body {
+			margin: 0 auto;
+		}
+
+		* {
+			-webkit-box-sizing:  border-box;
+			   -moz-box-sinzing: border-box;
+			        box-sizeing: border-box;
+		}
+
+		main {
+			margin: 0 auto;
+			width: 900px;			
+		}
+
+		#title {
+			position:absolute;
+			top:100px;
+			left:50%;
+			margin-left:-300px;
+		}
+
+#button {
+
+	position:absolute;
+	top: 250px;
+	left:50%;
+	margin-left:-100px;
+	cursor:pointer;
+	width:200px;
+	height:70px;
+}
+
+#button2 {
+
+	position:absolute;
+	top: 190px;
+	left:50%;
+	margin-left:-100px;
+	cursor:pointer;
+	width:200px;
+	height:50px;
+}
+
+#button3 {
+
+	position:absolute;
+	top: 130px;
+	left:50%;
+	margin-left:-100px;
+	cursor:pointer;
+	width:200px;
+	height:50px;
+}
+
+body { background:#000 url(img/background.png) no-repeat top left fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover; }
